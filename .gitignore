@@ -1,0 +1,27 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.spec
+build/
+*.egg-info/
+
+# ===== 构建产物 =====
+dist/
+# 说明：打包好的 PortGuard.exe 通过 GitHub Releases 发布，不进 git 仓库
+
+# ===== 运行时数据（自动生成，每台机器不同） =====
+data/
+
+# ===== 临时 / 日志 =====
+*.log
+.kill*.log
+.kill*.log
+
+# ===== 截图与构建缓存（仅本地验证用） =====
+.shots/
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
